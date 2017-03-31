@@ -727,7 +727,7 @@ void vMainPoseEstimatorTask( void *pvParameters ){
 			static int16_t messageCounter = 0;
 			if (messageCounter == 2){
 				messageCounter = 0;
-				printf("%.0f %.0f %.2f\n",predictedX,predictedY,predictedTheta);
+				//printf("%.0f %.0f %.2f\n",predictedX,predictedY,predictedTheta);
 				
 				}else{
 				messageCounter = messageCounter + 1;
